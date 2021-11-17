@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <title>Freebie</title>
 </head>
 <body>
 
     <header>
-        <div>
+        <div class="container">
             <nav>
-                <img src="img/logo/logo.png" alt="Logo">
+                <img src="img/logo/logo.png" alt="Logo" class="logo-nav">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Our Plans</a></li>
-                    <li><a href="">Tools & Resources</a></li>
-                    <li><a href="">Login <img src="img/icon/user.png" alt="User"></a></li>
+                    <li class="hover"><a href="">Home</a></li>
+                    <li class="hover"><a href="">Services</a></li>
+                    <li class="hover"><a href="">Our Plans</a></li>
+                    <li class="hover"><a href="">Tools & Resources</a></li>
+                    <li class="login"><a href="" class="login-a">Login <img src="img/icon/user.png" alt="User"></a></li>
                 </ul>
             </nav>
             <section>
-                <div>
-                    <div>
+                <div class="header-content">
+                    <div class="header-text">
                         <h1>Web Hosting Easy and Secure</h1>
                         <h3>Full control of what you use and pay for</h3>
                         <form method="POST">
-                            <input type="text" name="" id="">
-                            <select name="" id="">
+                            <input type="text" name="search" placeholder="Search for a domain name" class="search-domain">
+                            <select name="domain" class="select-domain">
                                 <option value=".com">.com</option>
                             </select>
-                            <input type="submit" value="CHECK AVAILABILITY">
+                            <input type="submit" value="CHECK AVAILABILITY" class="form-button">
                         </form>
                     </div>
                     <img src="img/header/illustration.png" alt="Illustration">
@@ -38,8 +42,8 @@
         </div>
     </header>
 
-    <section>
-        <div>
+    <section class="join_us">
+        <div class="join_us--container">
             <h2>What will you get if you'll join us</h2>
             <h3>Get the best web hosting service at the price you can afford</h3>
             <div>

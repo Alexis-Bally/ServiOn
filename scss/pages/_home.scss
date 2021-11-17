@@ -1,0 +1,132 @@
+header {
+    width: 100%;
+    height: 88vh;
+    background-image: url(img/header/background.png);
+    background-position: center;
+    background-size: cover;
+
+    .container {
+        padding: 0 7vw;
+        height: 88vh;
+    }
+
+    nav {
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        .logo-nav {
+            padding-top: 4.5vh;
+            height: min-content;
+        }
+
+        ul {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+
+            li {
+                padding: 5vh 1vw 1vh;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+
+                a{
+                    padding-top: 3vh;
+                    color: $white;
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+            }
+            .hover {
+                transition: all 0.3s;
+
+                &:hover {
+                    background-color: $blue1;
+                }
+            }
+            .login-a {
+                background-color: $white;
+                color: $blue1;
+                padding: 1vh;
+                border-radius: 8px;
+                img {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    .header-content {
+        height: 65vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        color: white;
+
+        .header-text {
+            width: 50%;
+
+            h1 {
+                padding: 3vh 0;
+            }
+    
+            h3 {
+                padding-bottom: 6vh;
+            }
+    
+            form {
+                input, select {
+                    background-color: $blue3;
+                    color: $white;
+                    border: none;
+                    padding: 0.8vw;
+                    font-size: 20px;
+                }
+                .search-domain {
+                    border-top-left-radius: 7px;
+                    border-bottom-left-radius: 7px;
+                    width: 45%;
+                    &::placeholder {
+                        color: $white;
+                    }
+                }
+                .select-domain {
+                    border-top-right-radius: 7px;
+                    border-bottom-right-radius: 7px;
+                }
+                .form-button {
+                    background-color: $blue1;
+                    font-size: 18px;
+                    padding: 1vw;
+                    border: none;
+                    border-radius: 5px;
+                    margin-left: 2vw;
+                }
+            }
+        }
+
+        img {
+            width: 45%;
+        }
+    }
+
+}
+
+.join_us {
+    width: 100%;
+    height: 118vh;
+
+    &--container {
+        display: flex;
+        flex-direction: column;
+        padding: 7vw;
+
+        h2, h3 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
