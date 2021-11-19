@@ -1,0 +1,68 @@
+nav {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .logo-nav {
+        padding-top: 4.5vh;
+        height: min-content;
+    }
+
+    ul {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+
+        li {
+            padding: 4.5vh 1vw 1.5vh;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            min-width: 100px;
+            display: flex;
+            justify-content: center;
+
+            a{
+                color: $white;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            
+        }
+
+        .plans {
+            min-width: 130px;
+        }
+
+        .tools {
+            min-width: 200px;
+        }
+
+        .hover {
+
+            &:hover {
+                transition: all 0.3s;
+                background-color: $blue1;
+            }
+        }
+
+        .login {
+            padding: 3vh 0 0;
+            min-width: 150px;
+            
+            &-a {
+                width: 80%;
+                background-color: $white;
+                color: $blue1;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
