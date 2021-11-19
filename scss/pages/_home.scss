@@ -1,124 +1,21 @@
-header {
-    width: 100%;
-    height: 82vh;
-    background-image: url(img/header/background.png);
-    background-position: center;
-    background-size: cover;
-
-    .container {
-        padding: 0 7vw;
-        height: 88vh;
-    }
-
-    .header-content {
-        height: 65vh;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-        color: white;
-
-        .header-text {
-            width: 50%;
-
-            h1 {
-                padding: 3vh 0;
-            }
-    
-            h3 {
-                padding-bottom: 6vh;
-            }
-        }
-
-        img {
-            width: 45%;
-        }
-    }
-
+.div_card {
+    width: 45%;
+    height: 53vh;
+    padding-top: 3vh;
 }
 
-.services {
-    width: 100%;
-
-    &--container {
-        display: flex;
-        flex-direction: column;
-        padding: 6vh 7vw;
-
-        h2, h3 {
-            display: flex;
-            justify-content: center;
-        }
-        h2 {
-            margin-bottom: 2vh;
-        }
-        h3 {
-            margin-bottom: 8vh;
-        }
-    }
-    &--content {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    &--div_card {
-        width: 45%;
-        height: 53vh;
-        padding-top: 3vh;
-    }
-    &--card {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 6vh;
-        :nth-child(2) {
-            p {
-                line-height: 35px;
-            }
-        }
-        img {
-            height: 6.5vh;
-            margin-right: 1.5vw;
-        }
-        h4 {
-            margin-bottom: 3vh;
-        }
-    }
-    &--screen_illu {
-        position: relative;
-        width: 50%;
-        height: 47vh;
-        margin-left: 6vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .illu {
-        width: 85%;
-    }
-    &--dotted_square {
-        z-index: 10;
-        width: 25%;
-    }
-    .right {
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-    .left {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
+.screen_illu {
+    position: relative;
+    width: 50%;
+    height: 47vh;
+    margin-left: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.plan {
-    width: 100%;
-    background-color: $light-blue;
-
-    &--container {
-        display: flex;
-        flex-direction: column;
-        padding: 7vw;
-    }
+.illu {
+    width: 85%;
 }
+
+
