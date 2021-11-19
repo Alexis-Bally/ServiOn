@@ -1,0 +1,17 @@
+.services_block {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6vh;
+    :nth-child(2) {
+        p {
+            opacity: 80%;
+        }
+    }
+    img {
+        height: 6.5vh;
+        margin-right: 1.5vw;
+    }
+    h4 {
+        margin-bottom: 3vh;
+    }
+}

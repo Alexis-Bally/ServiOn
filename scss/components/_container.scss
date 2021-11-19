@@ -7,3 +7,17 @@
 .services_container {
     padding: 6vh 7vw;
 }
+
+.button_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon_container {
+    width: 77px;
+    height: 77px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

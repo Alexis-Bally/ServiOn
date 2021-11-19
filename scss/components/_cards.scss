@@ -1,19 +1,12 @@
-.services_card {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 6vh;
-    :nth-child(2) {
-        p {
-            line-height: 35px;
-            opacity: 80%;
-        }
-    }
-    img {
-        height: 6.5vh;
-        margin-right: 1.5vw;
-    }
+.plan_card {
+    position: relative;
+    width: 46%;
+    height: 40vh;
+    padding: 50px;
+    padding-top: 0;
+    border-radius: 7px;
+    color: $white;
     h4 {
-        margin-bottom: 3vh;
+        margin-bottom: 2vh;
     }
 }
-

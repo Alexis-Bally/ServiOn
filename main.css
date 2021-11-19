@@ -79,6 +79,7 @@ h4 {
 
 p {
   font-size: 20px;
+  line-height: 35px;
 }
 
 a {
@@ -105,21 +106,48 @@ a {
   width: 85%;
 }
 
-.services_card {
+.upper_part {
+  height: 17.5vh;
   display: flex;
-  flex-direction: row;
-  margin-bottom: 6vh;
+  align-items: center;
+  justify-content: space-between;
 }
-.services_card :nth-child(2) p {
-  line-height: 35px;
-  opacity: 80%;
+
+.plan_button {
+  display: flex;
+  align-items: center;
+  width: 27%;
+  text-decoration: none;
+  font-weight: 700;
+  color: #93A5FF;
 }
-.services_card img {
-  height: 6.5vh;
-  margin-right: 1.5vw;
+.plan_button .fleche {
+  margin-left: 15px;
 }
-.services_card h4 {
-  margin-bottom: 3vh;
+
+.clouds {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+
+.logos {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.plan_card {
+  position: relative;
+  width: 46%;
+  height: 40vh;
+  padding: 50px;
+  padding-top: 0;
+  border-radius: 7px;
+  color: #ffffff;
+}
+.plan_card h4 {
+  margin-bottom: 2vh;
 }
 
 .container {
@@ -132,12 +160,42 @@ a {
   padding: 6vh 7vw;
 }
 
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon_container {
+  width: 77px;
+  height: 77px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button {
   font-size: 18px;
   padding: 1vw;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.services_block {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 6vh;
+}
+.services_block :nth-child(2) p {
+  opacity: 80%;
+}
+.services_block img {
+  height: 6.5vh;
+  margin-right: 1.5vw;
+}
+.services_block h4 {
+  margin-bottom: 3vh;
 }
 
 .content {
@@ -164,7 +222,6 @@ a {
 }
 
 form input, form select {
-  background-color: #384170;
   color: #ffffff;
   border: none;
   padding: 0.8vw;
@@ -250,6 +307,18 @@ nav ul .login-a img {
 
 .bg_blue {
   background-color: #93A5FF;
+}
+
+.bg_dark_blue {
+  background-color: #424D83;
+}
+
+.bg_darker_blue {
+  background-color: #384170;
+}
+
+.bg_white {
+  background-color: #ffffff;
 }
 
 .container h2, .container h3 {
