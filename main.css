@@ -360,87 +360,6 @@ a {
   left: 10px;
 }
 
-form input, form select {
-  color: #ffffff;
-  border: none;
-  padding: 0.8vw;
-  font-size: 20px;
-}
-form .search-domain {
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
-  width: 45%;
-}
-form .search-domain::placeholder {
-  color: #ffffff;
-}
-form .select-domain {
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
-  cursor: pointer;
-}
-form .form-button {
-  background-color: #93A5FF;
-  margin-left: 2vw;
-  font-weight: 600;
-}
-
-nav {
-  height: 8vh;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-nav .logo-nav {
-  padding-top: 4.5vh;
-  height: min-content;
-}
-nav ul {
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
-nav ul li {
-  padding: 4.5vh 1vw 1.5vh;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  min-width: 100px;
-  display: flex;
-  justify-content: center;
-}
-nav ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 20px;
-}
-nav ul .plans {
-  min-width: 130px;
-}
-nav ul .tools {
-  min-width: 200px;
-}
-nav ul .hover:hover {
-  transition: all 0.3s;
-  background-color: #93A5FF;
-}
-nav ul .login {
-  padding: 3vh 0 0;
-  min-width: 150px;
-}
-nav ul .login-a {
-  width: 80%;
-  background-color: #ffffff;
-  color: #93A5FF;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-nav ul .login-a img {
-  margin-left: 20px;
-}
-
 .bg_light_blue {
   background-color: #F7F8FF;
 }
@@ -511,6 +430,93 @@ header .header-content .header-text h3 {
 }
 header .header-content img {
   width: 45%;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+form input, form select {
+  color: #ffffff;
+  border: none;
+  padding: 0.8vw;
+  font-size: 20px;
+}
+form .search-domain {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  margin-right: 3px;
+  width: 45%;
+}
+form .search-domain::placeholder {
+  color: #ffffff;
+}
+form .select-domain {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  cursor: pointer;
+}
+form .form-button {
+  background-color: #93A5FF;
+  margin-left: 2vw;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+nav {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+nav .logo-nav {
+  padding-top: 4.5vh;
+  height: min-content;
+}
+nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+nav ul li {
+  padding: 4.5vh 1vw 1.5vh;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+}
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav ul .plans {
+  min-width: 130px;
+}
+nav ul .tools {
+  min-width: 200px;
+}
+nav ul .hover:hover {
+  transition: all 0.3s;
+  background-color: #93A5FF;
+}
+nav ul .login {
+  padding: 3vh 0 0;
+  min-width: 150px;
+}
+nav ul .login-a {
+  width: 80%;
+  background-color: #ffffff;
+  color: #93A5FF;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul .login-a img {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

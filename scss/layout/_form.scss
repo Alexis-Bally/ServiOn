@@ -1,4 +1,6 @@
 form {
+    display: flex;
+    flex-direction: row;
     input, select {
         color: $white;
         border: none;
@@ -8,6 +10,7 @@ form {
     .search-domain {
         border-top-left-radius: 7px;
         border-bottom-left-radius: 7px;
+        margin-right: 3px;
         width: 45%;
         &::placeholder {
             color: $white;
@@ -22,5 +25,6 @@ form {
         background-color: $blue1;
         margin-left: 2vw;
         font-weight: 600;
+        color: $white;
     }
 }
