@@ -114,18 +114,6 @@ a {
   justify-content: space-between;
 }
 
-.plan_button {
-  display: flex;
-  align-items: center;
-  width: 27%;
-  text-decoration: none;
-  font-weight: 700;
-  color: #93A5FF;
-}
-.plan_button .fleche {
-  margin-left: 15px;
-}
-
 .clouds {
   position: absolute;
   top: 35px;
@@ -199,6 +187,16 @@ a {
 .hosting_card p {
   text-align: center;
 }
+.hosting_card:hover {
+  height: 66vh;
+}
+.hosting_card:hover .infos {
+  border-top: 10px solid #93A5FF;
+  transition: all 0.3s;
+}
+.hosting_card:hover .hosting_button {
+  display: flex;
+}
 
 .vps {
   height: 66vh;
@@ -230,10 +228,26 @@ a {
 
 .button {
   font-size: 18px;
-  padding: 1vw;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #93A5FF;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.button .fleche {
+  margin-left: 15px;
+}
+
+.hosting_button {
+  margin: 60px 0;
+  display: none;
+}
+
+.vps_button {
+  display: flex;
 }
 
 .services_block {

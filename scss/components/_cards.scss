@@ -19,6 +19,16 @@
     p {
         text-align: center;
     }
+    &:hover {
+        height: 66vh;
+        .infos {
+            border-top: 10px solid $blue1;
+            transition: all 0.3s;
+        }
+        .hosting_button {
+            display: flex;
+        }
+    }
 }
 .vps {
     height: 66vh;

@@ -26,18 +26,6 @@
     justify-content: space-between;
 }
 
-.plan_button {
-    display: flex;
-    align-items: center;
-    width: 27%;
-    text-decoration: none;
-    font-weight: 700;
-    color: $blue1;
-    .fleche {
-        margin-left: 15px;
-    }
-}
-
 .clouds {
     position: absolute;
     top: 35px;
