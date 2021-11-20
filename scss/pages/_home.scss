@@ -49,3 +49,42 @@
     top: 0;
     right: 0;
 }
+
+.infos {
+    height: 37vh;
+    padding: 0 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: $radius;
+    border-bottom: 1px solid $light-grey;
+    img {
+        margin-bottom: 40px;
+    }
+    h4 {
+        margin-bottom: 30px;
+    }
+}
+
+.price {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .text_price {
+        font-size: 40px;
+        margin-top: 15px;
+        .month {
+            font-size: 18px;
+        }
+    }
+}
+
+.infos_wordpress {
+    padding: 0 2vw;
+}
+
+.infos_vps {
+    border-top: 10px solid $blue1;
+}

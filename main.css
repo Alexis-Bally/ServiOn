@@ -84,6 +84,7 @@ p {
 
 a {
   font-size: 18px;
+  text-decoration: none;
 }
 
 .div_card {
@@ -137,17 +138,70 @@ a {
   right: 0;
 }
 
+.infos {
+  height: 37vh;
+  padding: 0 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border-bottom: 1px solid #EBEBEB;
+}
+.infos img {
+  margin-bottom: 40px;
+}
+.infos h4 {
+  margin-bottom: 30px;
+}
+
+.price {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price .text_price {
+  font-size: 40px;
+  margin-top: 15px;
+}
+.price .text_price .month {
+  font-size: 18px;
+}
+
+.infos_wordpress {
+  padding: 0 2vw;
+}
+
+.infos_vps {
+  border-top: 10px solid #93A5FF;
+}
+
 .plan_card {
   position: relative;
   width: 46%;
   height: 40vh;
   padding: 50px;
   padding-top: 0;
-  border-radius: 7px;
+  border-radius: 5px;
   color: #ffffff;
 }
 .plan_card h4 {
   margin-bottom: 2vh;
+}
+
+.hosting_card {
+  width: 22%;
+  height: 54vh;
+  border-radius: 5px;
+  box-shadow: 0 3px 17px rgba(0, 0, 0, 0.1);
+}
+.hosting_card p {
+  text-align: center;
+}
+
+.vps {
+  height: 66vh;
 }
 
 .container {
@@ -243,6 +297,7 @@ form .select-domain {
 form .form-button {
   background-color: #93A5FF;
   margin-left: 2vw;
+  font-weight: 600;
 }
 
 nav {
@@ -292,7 +347,7 @@ nav ul .login-a {
   width: 80%;
   background-color: #ffffff;
   color: #93A5FF;
-  border-radius: 8px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
