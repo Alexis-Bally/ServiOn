@@ -3,6 +3,7 @@
     padding: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: 700;
     color: $blue1;
     border: none;
@@ -20,4 +21,12 @@
 
 .vps_button {
     display: flex;
+}
+
+.trial_button {
+    color: $white;
+    width: 177px;
+    height: 54px;
+    padding: 0;
+    margin: 80px auto 0;
 }

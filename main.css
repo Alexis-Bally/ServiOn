@@ -173,6 +173,15 @@ a {
   margin-top: 65px;
 }
 
+.clients_logo {
+  display: flex;
+  align-items: center;
+}
+
+.client {
+  height: 100%;
+}
+
 .plan_card {
   position: relative;
   width: 46%;
@@ -243,6 +252,7 @@ a {
   padding: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-weight: 700;
   color: #93A5FF;
   border: none;
@@ -260,6 +270,14 @@ a {
 
 .vps_button {
   display: flex;
+}
+
+.trial_button {
+  color: #ffffff;
+  width: 177px;
+  height: 54px;
+  padding: 0;
+  margin: 80px auto 0;
 }
 
 .comment {
