@@ -10,14 +10,16 @@
 @import 'components/cards',
         'components/container',
         'components/buttons',
+        'components/comment',
         'components/block',
+        'components/dot',
         'components/content',
         'components/dotted-square',
-        'components/form',
-        'components/nav',
         'components/bg-colors',
         'components/section-title',
         'components/section';
 
 @import 'layout/header',
+        'layout/form',
+        'layout/nav',
         'layout/footer';

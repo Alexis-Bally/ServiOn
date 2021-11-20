@@ -76,3 +76,11 @@
 .infos_vps {
     border-top: 10px solid $blue1;
 }
+
+.dot_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
