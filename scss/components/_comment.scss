@@ -1,3 +1,11 @@
+.left_comment {
+    margin: 0 2.5vw 0 4vw;
+}
+
+.right_comment {
+    margin: 0 4vw 0 2.5vw;
+}
+
 .comment {
     width: 45%;
     display: flex;
@@ -5,12 +13,19 @@
     .profil {
         width: 140px;
         height: 140px;
+
+        @include phone {
+            height: 70px;
+        }
     }
     .comment_content {
         margin-top: 25px;
         margin-left: 20px;
         .text_comment {
             font-size: 23px;
+            @include phone {
+                font-size: 14px;
+            }
         }
         .name {
             font-weight: 700;
@@ -20,12 +35,9 @@
             margin-bottom: 15px;
         }
     }
-}
 
-.left_comment {
-    margin: 0 2.5vw 0 4vw;
-}
-
-.right_comment {
-    margin: 0 4vw 0 2.5vw;
+    @include laptop {
+        width: 90%;
+        margin-top: 5vh;
+    }
 }

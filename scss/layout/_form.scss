@@ -1,17 +1,43 @@
 form {
     display: flex;
     flex-direction: row;
+    height: 6.5vh;
+
+    @include responsive {
+        flex-direction: column;
+    }
     input, select {
         color: $white;
         border: none;
         padding: 0.8vw;
         font-size: 20px;
+
+        @include responsive {
+            font-size: 16px;
+        }
+
+        @include phone {
+            font-size: 12px;
+        }
+    }
+    .form_text {
+        width: 65%;
+
+        @include responsive {
+            width: 90%;
+            margin: auto;
+        }
     }
     .search-domain {
         border-top-left-radius: 7px;
         border-bottom-left-radius: 7px;
         margin-right: 3px;
-        width: 45%;
+        width: 80%;
+        height: 100%;
+
+        @media (max-width: 1440px) {
+            width: 70%;
+        }
         &::placeholder {
             color: $white;
         }
@@ -20,11 +46,22 @@ form {
         border-top-right-radius: 7px;
         border-bottom-right-radius: 7px;
         cursor: pointer;
+        height: 100%;
     }
     .form-button {
         background-color: $blue1;
         margin-left: 2vw;
         font-weight: 600;
         color: $white;
+
+        @include responsive {
+            width: 45%;
+            margin: auto;
+            margin-top: 2vh;
+        }
+
+        @include phone {
+            width: auto;
+        }
     }
 }

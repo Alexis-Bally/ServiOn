@@ -1,6 +1,5 @@
 .div_card {
     width: 45%;
-    height: 53vh;
     padding-top: 3vh;
 
     @include laptop {
@@ -21,6 +20,10 @@
         margin: auto;
         margin-top: 5vh;
     }
+
+    @include phone {
+        display: none;
+    }
 }
 
 .illu {
@@ -39,16 +42,24 @@
     position: absolute;
     top: 35px;
     right: 20px;
+
+    @include responsive {
+        display: none;
+    }
 }
 
 .logos {
     position: absolute;
     top: 0;
     right: 0;
+
+    @include responsive {
+        display: none;
+    }
 }
 
 .infos {
-    height: 37vh;
+    height: 65%;
     padding: 0 2.5vw;
     @include center;
     flex-direction: column;
@@ -59,10 +70,6 @@
     }
     h4 {
         margin-bottom: 30px;
-    }
-
-    @include laptop {
-        height: 30vh;
     }
 }
 
@@ -86,6 +93,7 @@
 
 .infos_vps {
     border-top: 10px solid $blue1;
+    height: 53%;
 }
 
 .dot_group {
@@ -101,4 +109,8 @@
 
 .client {
     height: 100%;
+
+    @include laptop {
+        margin-bottom: 3vh;
+    }
 }

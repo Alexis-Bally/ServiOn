@@ -7,6 +7,10 @@ nav {
     .logo-nav {
         padding-top: 4.5vh;
         height: min-content;
+
+        @include responsive {
+            display: none;
+        }
     }
 
     ul {
@@ -19,6 +23,10 @@ nav {
             width: 85%;
         }
 
+        @include responsive {
+            width: 100%;
+        }
+
         li {
             padding: 4.5vh 1vw 1.5vh;
             border-bottom-left-radius: 5px;
@@ -27,20 +35,37 @@ nav {
             display: flex;
             justify-content: center;
 
+            @include laptop {
+                min-width: 0;
+            }
+
             a{
                 color: $white;
-                text-decoration: none;
                 font-size: 20px;
+
+                @include responsive {
+                    font-size: 12px;
+                }
+
+                @include phone {
+                    font-size: 8px;
+                }
             }
             
         }
 
         .plans {
             min-width: 130px;
+            @include laptop {
+                min-width: 0;
+            }
         }
 
         .tools {
             min-width: 200px;
+            @include laptop {
+                min-width: 0;
+            }
         }
 
         .hover {
@@ -54,6 +79,14 @@ nav {
         .login {
             padding: 3vh 0 0;
             min-width: 150px;
+
+            @include laptop {
+                min-width: 23%;
+            }
+
+            @include responsive {
+                padding: 4vh 0 1vh;
+            }
             
             &-a {
                 width: 80%;
@@ -63,6 +96,9 @@ nav {
                 @include center;
                 img {
                     margin-left: 20px;
+                    @include responsive {
+                        margin-left: 10px;
+                    }
                 }
             }
         }

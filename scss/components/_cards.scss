@@ -14,11 +14,15 @@
         margin: auto;
         margin-top: 5vh;
     }
+
+    @include phone {
+        padding: 20px;
+    }
 }
 
 .hosting_card {
     width: 22%;
-    height: 54vh;
+    height: 516px;
     border-radius: $radius;
     box-shadow: 0 3px 17px rgba($color: #000000, $alpha: 0.1);
     p {
@@ -37,15 +41,15 @@
 
     @include laptop {
         width: 60%;
-        height: 45vh;
+        height: 425px;
         margin: auto;
         margin-top: 5vh;
     }
+
+    @include phone {
+        width: 80%;
+    }
 }
 .vps {
-    height: 66vh;
-
-    @include laptop {
-        height: 60vh;
-    }
+    height: 641px;
 }

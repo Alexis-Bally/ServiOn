@@ -24,6 +24,10 @@ footer {
             display: flex;
             flex-direction: row;
 
+            @include phone {
+                flex-wrap: wrap;
+            }
+
             .bg_credit_card {
                 border-radius: $radius;
                 width: 87px;

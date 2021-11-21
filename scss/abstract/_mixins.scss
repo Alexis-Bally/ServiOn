@@ -11,3 +11,7 @@
 @mixin laptop {
     @media (max-width: $responsive_size_laptop) { @content; }
 }
+
+@mixin phone {
+    @media (max-width: $responsive_size_phone) { @content; }
+}

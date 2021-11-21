@@ -10,6 +10,11 @@
     .fleche {
         margin-left: 15px;
     }
+
+    @include phone {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
 
 .hosting_button {

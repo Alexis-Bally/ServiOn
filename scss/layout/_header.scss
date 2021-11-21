@@ -19,7 +19,6 @@ header {
         color: white;
 
         @include laptop {
-            flex-direction: column-reverse;
             justify-content: space-around;
             height: 55vh;
             margin-top: 3vh;
@@ -45,7 +44,7 @@ header {
             width: 45%;
 
             @include laptop {
-                width: 70%;
+                display: none;
             }
         }
     }
