@@ -9,9 +9,7 @@
     width: 50%;
     height: 47vh;
     margin-left: 6vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include center;
 }
 
 .illu {
@@ -41,9 +39,7 @@
 .infos {
     height: 37vh;
     padding: 0 2.5vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include center;
     flex-direction: column;
     border-radius: $radius;
     border-bottom: 1px solid $light-grey;
@@ -78,10 +74,8 @@
 }
 
 .dot_group {
-    display: flex;
+    @include center;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     margin-top: 65px;
 }
 

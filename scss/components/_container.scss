@@ -17,9 +17,7 @@
     width: 77px;
     height: 77px;
     border-radius: $radius;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include center;
 }
 
 .comments_container {

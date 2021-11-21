@@ -99,8 +99,8 @@ a {
   height: 47vh;
   margin-left: 6vw;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .illu {
@@ -167,9 +167,9 @@ a {
 
 .dot_group {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   margin-top: 65px;
 }
 
@@ -251,8 +251,8 @@ a {
   font-size: 18px;
   padding: 20px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-weight: 700;
   color: #93A5FF;
   border: none;
@@ -564,8 +564,8 @@ nav ul .login-a {
   color: #93A5FF;
   border-radius: 5px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 nav ul .login-a img {
   margin-left: 20px;
@@ -627,8 +627,8 @@ footer .footer_container .footer_documents .brands img {
 footer .footer_container .footer_documents .document {
   height: 32px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 footer .footer_container .footer_documents .document .document_link_left {
   padding-right: 20px;

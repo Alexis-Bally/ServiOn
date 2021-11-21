@@ -1,9 +1,7 @@
 .button {
     font-size: 18px;
     padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include center;
     font-weight: 700;
     color: $blue1;
     border: none;

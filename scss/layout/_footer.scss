@@ -30,9 +30,7 @@ footer {
                 height: 49px;
                 padding: 10px;
                 margin-right: 10px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include center;
             }
         }
 
@@ -51,9 +49,7 @@ footer {
             flex-direction: column;
 
             .brands {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include center;
                 margin-bottom: 25px;
 
                 img {
@@ -63,9 +59,7 @@ footer {
 
             .document {
                 height: 32px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                @include center;
 
                 .document_link_left {
                     padding-right: 20px;
