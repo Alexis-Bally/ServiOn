@@ -1,0 +1,85 @@
+footer {
+    background-image: url(img/footer_bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 10vh;
+    color: $white;
+    
+    .footer_container {
+        padding: 10vh 7vw;
+
+        a {
+            color: $white;
+        }
+
+        .title {
+            margin-bottom: 30px;
+        }
+
+        .link {
+            margin-bottom: 15px;
+        }
+
+        .credit_cards {
+            display: flex;
+            flex-direction: row;
+
+            .bg_credit_card {
+                border-radius: $radius;
+                width: 87px;
+                height: 49px;
+                padding: 10px;
+                margin-right: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .footer_adress {
+            img {
+                margin-bottom: 20px;
+            }
+            p {
+                line-height: 25px;
+            }
+        }
+
+        .footer_documents {
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+
+            .brands {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 25px;
+
+                img {
+                    margin-left: 10px;
+                }
+            }
+
+            .document {
+                height: 32px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .document_link_left {
+                    padding-right: 20px;
+                    border-right: 1px solid $white;
+                }
+
+                .document_link_right {
+                    padding-left: 20px;
+                }
+
+                a {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

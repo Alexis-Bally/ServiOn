@@ -1,0 +1,35 @@
+.footer_grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 3fr;
+    grid-template-rows: 280px 1fr;
+    
+    .footer_hosting {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .footer_features {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .footer_support {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .footer_cards {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+
+    .footer_adress {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .footer_documents {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+    }
+}
