@@ -18,8 +18,19 @@ header {
         flex-direction: row;
         color: white;
 
+        @include responsive {
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            height: 55vh;
+            margin-top: 3vh;
+        }
+
         .header-text {
             width: 50%;
+
+            @include responsive {
+                width: 90%;
+            }
 
             h1 {
                 padding: 3vh 0;
@@ -32,6 +43,10 @@ header {
 
         img {
             width: 45%;
+
+            @include responsive {
+                width: 90%;
+            }
         }
     }
 

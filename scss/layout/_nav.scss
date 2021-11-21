@@ -4,6 +4,10 @@ nav {
     justify-content: space-between;
     flex-direction: row;
 
+    @include responsive {
+        justify-content: space-around;
+    }
+
     .logo-nav {
         padding-top: 4.5vh;
         height: min-content;
@@ -14,6 +18,10 @@ nav {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+
+        @include responsive {
+            width: 85%;
+        }
 
         li {
             padding: 4.5vh 1vw 1.5vh;

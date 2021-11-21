@@ -441,8 +441,21 @@ header .header-content {
   flex-direction: row;
   color: white;
 }
+@media (max-width: 768px) {
+  header .header-content {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    height: 55vh;
+    margin-top: 3vh;
+  }
+}
 header .header-content .header-text {
   width: 50%;
+}
+@media (max-width: 768px) {
+  header .header-content .header-text {
+    width: 90%;
+  }
 }
 header .header-content .header-text h1 {
   padding: 3vh 0;
@@ -452,6 +465,11 @@ header .header-content .header-text h3 {
 }
 header .header-content img {
   width: 45%;
+}
+@media (max-width: 768px) {
+  header .header-content img {
+    width: 90%;
+  }
 }
 
 form {
@@ -521,6 +539,11 @@ nav {
   justify-content: space-between;
   flex-direction: row;
 }
+@media (max-width: 768px) {
+  nav {
+    justify-content: space-around;
+  }
+}
 nav .logo-nav {
   padding-top: 4.5vh;
   height: min-content;
@@ -530,6 +553,11 @@ nav ul {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+}
+@media (max-width: 768px) {
+  nav ul {
+    width: 85%;
+  }
 }
 nav ul li {
   padding: 4.5vh 1vw 1.5vh;
