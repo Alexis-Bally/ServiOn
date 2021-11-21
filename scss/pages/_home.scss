@@ -2,6 +2,10 @@
     width: 45%;
     height: 53vh;
     padding-top: 3vh;
+
+    @include laptop {
+        width: 95%;
+    }
 }
 
 .screen_illu {
@@ -10,6 +14,13 @@
     height: 47vh;
     margin-left: 6vw;
     @include center;
+
+    @include laptop {
+        width: 75%;
+        height: 35vh;
+        margin: auto;
+        margin-top: 5vh;
+    }
 }
 
 .illu {
@@ -48,6 +59,10 @@
     }
     h4 {
         margin-bottom: 30px;
+    }
+
+    @include laptop {
+        height: 30vh;
     }
 }
 

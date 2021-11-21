@@ -1,13 +1,18 @@
 .plan_card {
     position: relative;
     width: 46%;
-    height: 40vh;
     padding: 50px;
     padding-top: 0;
     border-radius: $radius;
     color: $white;
     h4 {
         margin-bottom: 2vh;
+    }
+
+    @include laptop {
+        width: 85%;
+        margin: auto;
+        margin-top: 5vh;
     }
 }
 
@@ -29,7 +34,18 @@
             display: flex;
         }
     }
+
+    @include laptop {
+        width: 60%;
+        height: 45vh;
+        margin: auto;
+        margin-top: 5vh;
+    }
 }
 .vps {
     height: 66vh;
+
+    @include laptop {
+        height: 60vh;
+    }
 }

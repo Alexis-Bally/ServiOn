@@ -18,7 +18,7 @@ header {
         flex-direction: row;
         color: white;
 
-        @include responsive {
+        @include laptop {
             flex-direction: column-reverse;
             justify-content: space-around;
             height: 55vh;
@@ -28,7 +28,7 @@ header {
         .header-text {
             width: 50%;
 
-            @include responsive {
+            @include laptop {
                 width: 90%;
             }
 
@@ -44,8 +44,8 @@ header {
         img {
             width: 45%;
 
-            @include responsive {
-                width: 90%;
+            @include laptop {
+                width: 70%;
             }
         }
     }

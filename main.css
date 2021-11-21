@@ -92,6 +92,11 @@ a {
   height: 53vh;
   padding-top: 3vh;
 }
+@media (max-width: 1024px) {
+  .div_card {
+    width: 95%;
+  }
+}
 
 .screen_illu {
   position: relative;
@@ -101,6 +106,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 1024px) {
+  .screen_illu {
+    width: 75%;
+    height: 35vh;
+    margin: auto;
+    margin-top: 5vh;
+  }
 }
 
 .illu {
@@ -141,6 +154,11 @@ a {
 }
 .infos h4 {
   margin-bottom: 30px;
+}
+@media (max-width: 1024px) {
+  .infos {
+    height: 30vh;
+  }
 }
 
 .price {
@@ -185,7 +203,6 @@ a {
 .plan_card {
   position: relative;
   width: 46%;
-  height: 40vh;
   padding: 50px;
   padding-top: 0;
   border-radius: 5px;
@@ -193,6 +210,13 @@ a {
 }
 .plan_card h4 {
   margin-bottom: 2vh;
+}
+@media (max-width: 1024px) {
+  .plan_card {
+    width: 85%;
+    margin: auto;
+    margin-top: 5vh;
+  }
 }
 
 .hosting_card {
@@ -214,9 +238,22 @@ a {
 .hosting_card:hover .hosting_button {
   display: flex;
 }
+@media (max-width: 1024px) {
+  .hosting_card {
+    width: 60%;
+    height: 45vh;
+    margin: auto;
+    margin-top: 5vh;
+  }
+}
 
 .vps {
   height: 66vh;
+}
+@media (max-width: 1024px) {
+  .vps {
+    height: 60vh;
+  }
 }
 
 .container {
@@ -349,6 +386,11 @@ a {
   flex-direction: row;
   justify-content: space-between;
 }
+@media (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+  }
+}
 
 .dotted_square {
   z-index: 10;
@@ -441,7 +483,7 @@ header .header-content {
   flex-direction: row;
   color: white;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header .header-content {
     flex-direction: column-reverse;
     justify-content: space-around;
@@ -452,7 +494,7 @@ header .header-content {
 header .header-content .header-text {
   width: 50%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header .header-content .header-text {
     width: 90%;
   }
@@ -466,9 +508,9 @@ header .header-content .header-text h3 {
 header .header-content img {
   width: 45%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header .header-content img {
-    width: 90%;
+    width: 70%;
   }
 }
 
@@ -539,11 +581,6 @@ nav {
   justify-content: space-between;
   flex-direction: row;
 }
-@media (max-width: 768px) {
-  nav {
-    justify-content: space-around;
-  }
-}
 nav .logo-nav {
   padding-top: 4.5vh;
   height: min-content;
@@ -554,7 +591,7 @@ nav ul {
   justify-content: space-around;
   flex-direction: row;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   nav ul {
     width: 85%;
   }
